@@ -116,7 +116,7 @@ class CollectionActivity : AppCompatActivity(), SensorEventListener {
             Sensor.TYPE_GYROSCOPE -> gyroData.add("(${event.values[0]}, ${event.values[1]}, ${event.values[2]})")
         }
 
-        if (++count >= 5) stopCollection()
+        if (++count >= 10) stopCollection()
     }
 
     // we need to define a function onAccuracyChanged for the SensorEventListener, but
