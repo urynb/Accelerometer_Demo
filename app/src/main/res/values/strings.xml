@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">accelerometer</string>
+    <string name="Description">This button can only be pressed when the phone is flat against a surface.</string>
+</resources>
